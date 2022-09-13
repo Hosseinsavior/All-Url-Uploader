@@ -15,7 +15,7 @@ class Config(object):
     
     # Get these values from my.telegram.org
     API_ID = 12345
-    API_HASH = "uPzlgwqgHtgqmdL7yt12PRLrXFj"
+    API_HASH = ""
     
     # No need to change
     DOWNLOAD_LOCATION = "./DOWNLOADS"
@@ -26,12 +26,12 @@ class Config(object):
     PROCESS_MAX_TIMEOUT = 3700
     
     # TG Ids
-    LOG_CHANNEL = -1001798969594
-    OWNER_ID = 1288398723
+    LOG_CHANNEL = ""
+    OWNER_ID = 1234
     
     # bot username without @
     BOT_USERNAME = "AdvanceUrlUploaderBot"
     
     # auth users
-    AUTH_USERS = [OWNER_ID, 1288398722, 1288398724, 1288398725]
+    AUTH_USERS = [OWNER_ID, ""]
 </pre>
